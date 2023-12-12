@@ -1,9 +1,8 @@
-body{
+
+.App {
   height: 892px;
   width: 412px;
   margin: auto;
-}
-.App {
-  text-align: center;
+  background-image: linear-gradient(#f8f5fe,#D5C8FC);
 }
 

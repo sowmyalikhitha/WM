@@ -1,0 +1,81 @@
+.top{
+    display: inline-flex;
+}
+
+.bg-text{
+    color: #684EDC;
+    width: 118px;
+    height: 21px;
+    margin: 0;
+    padding: 14px 0 0 16px; 
+}
+
+.wifi{
+    width: 101px;
+    height: 18px;
+    padding: 17px 15.9px 0 160.8px; 
+}
+
+.bgimage{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.line2{
+    position: absolute;
+    width: 223.6px;
+    height: 43.12px;
+    top: 175.7px;
+    left: 103.35px;
+}
+
+.arc{
+    position: absolute;
+    width: 429px;
+    height: 325px; 
+    left: 25px; 
+    top: 190px;
+}
+
+.line1{
+    position: absolute;
+    height: 21.9px;
+    width: 46.02px;
+    top: 427.98px;
+    left: 139px;
+    transform: rotate(-40deg);
+}
+
+.person{
+    position: absolute;
+    width: 488px;
+    height: 518px;
+    top: 130px;
+    left: 28px;
+}
+
+.moneybank{
+    position: absolute;
+    width: 97px;
+    height: 97px;
+    top: 214px;
+    left: 16px;
+}
+
+.todo{
+    position: absolute;
+    width: 66px;
+    height: 82px;
+    top: 442px;
+    left: 82px;
+}
+
+.papers{
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    top: 182px;
+    left: 320px;
+}
