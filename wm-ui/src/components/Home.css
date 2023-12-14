@@ -1,0 +1,20 @@
+.login_button{
+    width: 323px;
+    height: 38px;
+    color: #ffffff;
+    background-color: #684EDC;
+    border-radius: 18px;
+    border: none;
+    margin-left: 44px;
+}
+
+.signup_button{
+    width: 323px;
+    height: 38px;
+    color: #ffffff;
+    background-color: #B0B0B0;
+    border: none;
+    border-radius: 18px;
+    margin-left: 44px;
+    margin-top: 29px;
+}

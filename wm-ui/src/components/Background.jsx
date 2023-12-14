@@ -14,7 +14,7 @@ function Background() {
     return (
         <>
         <div className='top'>
-        <p className='bg-text'>22:00|100 MB/s</p>
+        <p className='bg-text'>22:00 | 100 MB/s</p>
         <img className="wifi" src={wifi} alt='wifi'></img>
         </div>
         <div className='bgimage'>

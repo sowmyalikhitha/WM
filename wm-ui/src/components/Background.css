@@ -19,7 +19,8 @@
 .bgimage{
     position: relative;
     overflow: hidden;
-    height: 100%;
+    top: -30px;
+    height: 68%;
     width: 100%;
 }
 
@@ -43,7 +44,7 @@
     position: absolute;
     height: 21.9px;
     width: 46.02px;
-    top: 427.98px;
+    top: 431.98px;
     left: 139px;
     transform: rotate(-40deg);
 }
