@@ -1,0 +1,112 @@
+.topbar{
+    display: inline-flex;
+}
+
+.time{
+    color: #684EDC;
+    margin: 0px;
+    padding-top: 14px;
+    padding-left: 16px;
+    width: 118px;
+    height: 21px;
+}
+
+.battery{
+    padding-top:17px;
+    padding-left: 160.86px;
+    width: 101.23px;
+    height: 18px;
+}
+
+.images{
+    position: relative;
+}
+
+.hline{
+    width:223px;
+    height: 43.12px;
+    position: absolute;
+    top: 175.72px;
+    left: 103.35px;
+}
+
+.vector{
+    position: absolute;
+    width: 429px;
+    height: 325px;
+    top: 190px;
+    left: 25px;
+}  
+
+.bank{
+    position:absolute;
+    top: 214px;
+    left: 16px;
+    width:97px;
+    height: 97px;
+} 
+
+.money{
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    top: 182px;
+    left: 320px;
+}
+
+.notes{
+    position: absolute;
+    width: 66px;
+    height: 82px;
+    top: 441px;
+    left: 82px;
+}
+
+.vline{
+    position: absolute;
+    width: 21.9px;
+    height: 46.02px;
+    top: 423.98px;
+    left: 151.39px;
+}
+
+.man{
+    position: absolute;
+    width: 456px;
+    height: 520px;
+    top: 130px;
+    left: 42px;
+}
+
+.buttons{
+    position: relative;
+}
+
+
+
+.login{
+    position: absolute;
+    top: 668px;
+    left:43px;
+    background-color: #684EDC;
+    color:#FFFFFF;
+    border: none;
+    border-radius: 18px;
+    width: 323px;
+    height: 38px;
+
+}
+
+.signup{
+    position: absolute;
+    top:735px;
+    left: 46px;
+    background-color:#B0B0B0;
+    color:#FFFFFF;
+    border: none;
+    border-radius: 18px;
+    width: 323px;
+    height: 38px;
+   
+
+}
