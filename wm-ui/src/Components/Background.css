@@ -1,0 +1,97 @@
+.header{
+    display: inline-flex;
+}
+.text{
+    color: #684EDC;
+    margin-top: 0px;
+    padding-left: 16px;
+    padding-top: 14px;
+    height: 21px;
+    width: 118px;
+} 
+
+.wifi{
+   padding-left: 160.86px; 
+   padding-top: 17px;
+   height: 18px;
+   width: 101.23px;
+}
+
+.images{
+    position: relative;
+}
+
+.line{
+    position: absolute;
+    top: 175.72px;
+    left:103.35px;
+    width: 223.67px;
+    height: 43.12px;
+}
+.arc{
+    position: absolute;
+    width: 429px;
+    height: 325px;
+    top: 190px;
+    left: 25px;
+}
+.smallline{
+    position: absolute;
+    width: 21.9px;
+    height: 46.02px;
+    left: 148.39px;
+    top: 423.98px;
+}
+.home{
+    position: absolute;
+    height: 97px; 
+    width: 97px;
+    left: 16px;
+    top: 214px;
+ } 
+ .money{
+    position: absolute;
+    top: 182px;
+    left: 320px;
+    width: 92px;
+    height: 92px;
+ }
+ .notes{
+    position: absolute;
+    top: 441px;
+    left: 82px;
+    width: 66px;
+    height: 82px;
+ }
+.boy{
+    position: absolute;
+    height: 520px;
+    width: 456px;
+    top: 130px;
+    left: 42px;
+}
+.Buttons{
+    position: relative;
+}
+.loginButton{
+position: absolute;
+width: 323px;
+height: 38px;
+top: 668px;
+left: 44px;
+background-color:#684EDC ;
+color: #FFFFFF;
+border: none;
+border-radius: 18px;
+}
+.SignupButton{
+    position: absolute;
+    width: 323px;
+    height: 38px;
+    top: 735px;
+    left: 46px;
+    color:#FFFFFF ;
+    background-color:#B0B0B0;
+    border-radius: 18px;
+    border: none;
+}
