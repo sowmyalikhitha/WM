@@ -1,6 +1,6 @@
 import React from 'react';
 import './Forgotpassword.css';
-import Background from './Background.jsx'
+import Background from '../Background/Background';
 
 function Forgotpassword() {
     return (
@@ -8,7 +8,7 @@ function Forgotpassword() {
         <Background />
         <div className="forgotpassword_details">
             <p className="forgotpassword_text">Forgot password</p>
-            <form className="formelements">
+            <form className="forgotpassword_formelements">
                 <label>Email ID</label><br></br>
                 <input type="text" name="email"></input>
             </form>

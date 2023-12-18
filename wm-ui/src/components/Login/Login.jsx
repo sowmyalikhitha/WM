@@ -1,6 +1,6 @@
 import React from 'react';
-import Background from './Background';
 import './Login.css';
+import Background from '../Background/Background';
 
 function Login() {
     return (
@@ -8,7 +8,7 @@ function Login() {
         <Background />
         <div className="login_details">
         <p className="login_text">Log-in</p>
-            <form className="formelements">
+            <form className="login_formelements">
                 <label>Email ID</label><br></br>
                 <input type="text" name="email"></input><br></br>
                 <label>Password</label><br></br>

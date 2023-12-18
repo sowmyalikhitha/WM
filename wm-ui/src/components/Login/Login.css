@@ -1,28 +1,33 @@
-.forgotpassword_text{
+.login_text{
     font-size: 24px;
     color: #505050;
     padding-left: 27px;
-    font-weight: 650;
+    font-weight: 640;
 }
 
-.formelements label{
+.login_formelements label{
     color: #483699;
     padding-left: 26.75px;
     font-size: 16px;
 }
 
-.formelements input{
+.login_formelements input{
     border: none;
-    outline: none;
     background-color: #ddd3fc;
     border-bottom: 1px solid #666666;
     margin-left: 26.75px;
     padding-top: 10px;
     margin-bottom: 10px;
     opacity: 50%;
+    outline: none;
 }
 
-.verification_button{
+.forgotpassword_link{
+    text-decoration: none;
+    margin-left: 26.75px;
+}
+
+.login_button{
     width: 323px;
     height: 38px;
     color: #ffffff;
@@ -34,20 +39,16 @@
     margin-bottom: 14px;
 }
 
-.forgotpassword_details{
+.login_details{
     margin-top: -100px;
 }
 
-.loginpage_link{
+.signup_link{
     text-decoration: none;
-    padding-left: 160px;
+    padding-left: 90px;
     margin-top: 14px;
 }
 
 a:active{
     color: #483699;
-}
-
-.bottom_part{
-    padding-top: 70px;
 }

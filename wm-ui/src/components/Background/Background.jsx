@@ -1,6 +1,5 @@
 import React from 'react';
 import './Background.css';
-import wifi from '../images/wifi.png';
 import line2 from '../images/line2.png';
 import arc from '../images/arc.png';
 import line1 from '../images/line1.png';
@@ -8,6 +7,7 @@ import person from '../images/person.png';
 import papers from '../images/papers.png';
 import moneybank from '../images/moneybank.png';
 import todo from '../images/todo.png';
+import wifi from '../images/wifi.png';
 
 
 function Background() {
