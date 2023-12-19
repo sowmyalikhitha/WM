@@ -7,14 +7,17 @@ import { useState } from 'react';
 const Onboard1 = ({}) => {
   const [name, setName] = useState("");
   const [stepPercentage, setStepPercentage] = useState(0);
+  const [buttonColor, setButtonColor] = useState("default"); 
 
   const handleNameChange = (event) => {
     const newName = event.target.value;
     setName(newName);
     if (newName.length > 6) {
       setStepPercentage(45);
+      setButtonColor("colorchange");
     } else {
       setStepPercentage(0);
+      setButtonColor("default");
     }
   };
 
@@ -30,7 +33,7 @@ const Onboard1 = ({}) => {
             <label>What's your name?</label><br></br>
             <input type="text" name={name} onChange={handleNameChange}></input>
         </form>
-        <button className="GetStarted_button">Get Started</button>
+        <button className={`GetStarted_button ${buttonColor}`}>Get Started</button>
      </div>
      </> 
     );

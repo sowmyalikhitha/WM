@@ -1,0 +1,69 @@
+.top{
+    display: inline-flex;
+}
+
+.bg-text{
+    color: #684EDC;
+    width: 118px;
+    height: 21px;
+    margin: 0;
+    padding: 14px 0 0 16px; 
+}
+
+.wifi{
+    width: 101px;
+    height: 18px;
+    padding: 17px 15.9px 0 160.8px; 
+}
+
+.Onboard2_bg{
+    overflow: hidden;
+}
+
+.tick_img{
+    position: relative;
+    height: 389px;
+    width: 425px;
+    top: 27px;
+    right: 14px;
+}
+
+.man_img{
+    position: absolute;
+    height: 405px;
+    width: 405px;
+    top: 76px;
+    left: 151px;
+    z-index: 1;
+}
+
+.germ_img{
+    position: absolute;
+    width: 150px;
+    height: 83px;
+    top: 218px;
+}
+
+.toggle_img{
+    position: absolute;
+    width: 87px;
+    height: 87px;
+    bottom: 219px;
+    left: 414px;
+}
+
+.Onboard2bg_text2{
+    position: absolute;
+    font-size: 16px;
+    color: #271577;
+    top: 88px;
+    padding-left: 14px;
+}
+
+.Onboard2bg_text1{
+    position: absolute;
+    font-size: 30px;
+    color: #505050;
+    padding-left: 15px;
+    font-weight: 600;
+}
