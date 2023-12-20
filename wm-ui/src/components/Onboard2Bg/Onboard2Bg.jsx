@@ -13,9 +13,9 @@ function Onboard2Bg() {
             <p className='bg-text'>22:00 | 100 MB/s</p>
             <img className="wifi" src={wifi} alt='wifi'></img>
         </div>
+        <div className="Onboard2_bg">
         <p className="Onboard2bg_text1">Hi Sam!</p>
         <p className="Onboard2bg_text2">Enter the below details to ease your <br></br> onboarding experience.</p>
-        <div className="Onboard2_bg">
         <img className="germ_img" src={germ} alt="germ"></img>
         <img className="man_img" src={man} alt="man"></img>
         <img className="tick_img" src={tick} alt="man"></img>

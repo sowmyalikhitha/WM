@@ -1,0 +1,36 @@
+.onboard2_details{
+    position: absolute;
+    background-color: white;
+    width: 412px;
+    height: 607px;
+    border-radius: 19px 19px 0 0;
+    top: 287px;
+    z-index: 1;
+}
+
+.onboard2_formelements label{
+    color: #483699;
+    padding-left: 16px;
+    font-size: 16px;
+}
+
+.onboard2_formelements input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #666666;
+    margin-left: 16px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    width: 180px;
+}
+
+.Submit_button{
+    border:none;
+    border-radius: 18px;
+    background-color: #B0B0B0;
+    width: 139px;
+    height: 38px;
+    color: #ffffff;
+    margin-left: 257px;
+    margin-top: 30px;
+}

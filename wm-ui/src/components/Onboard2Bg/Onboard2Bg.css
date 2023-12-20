@@ -17,23 +17,24 @@
 }
 
 .Onboard2_bg{
+    position: relative;
     overflow: hidden;
 }
 
 .tick_img{
     position: relative;
     height: 389px;
-    width: 425px;
-    top: 27px;
-    right: 14px;
+    width: 428px;
+    top: 43px;
+    right: 17px;
 }
 
 .man_img{
     position: absolute;
     height: 405px;
     width: 405px;
-    top: 76px;
-    left: 151px;
+    top: 62px;
+    left: 79px;
     z-index: 1;
 }
 
@@ -41,15 +42,15 @@
     position: absolute;
     width: 150px;
     height: 83px;
-    top: 218px;
+    top: 184px;
 }
 
 .toggle_img{
     position: absolute;
     width: 87px;
     height: 87px;
-    bottom: 219px;
-    left: 414px;
+    bottom: 263px;
+    left: 337px;
 }
 
 .Onboard2bg_text2{
@@ -62,6 +63,7 @@
 
 .Onboard2bg_text1{
     position: absolute;
+    padding-top: 32px;
     font-size: 30px;
     color: #505050;
     padding-left: 15px;

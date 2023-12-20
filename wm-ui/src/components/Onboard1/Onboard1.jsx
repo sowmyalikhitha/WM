@@ -21,6 +21,10 @@ const Onboard1 = ({}) => {
     }
   };
 
+  const handleOnboard1ButtonClick = () => {
+    
+  }
+
     return (
      <>
      <Background />
@@ -33,7 +37,7 @@ const Onboard1 = ({}) => {
             <label>What's your name?</label><br></br>
             <input type="text" name={name} onChange={handleNameChange}></input>
         </form>
-        <button className={`GetStarted_button ${buttonColor}`}>Get Started</button>
+        <button className={`GetStarted_button ${buttonColor}`} onClick={handleOnboard1ButtonClick}>Get Started</button>
      </div>
      </> 
     );
