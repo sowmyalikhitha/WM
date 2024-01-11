@@ -1,0 +1,86 @@
+.loginform{
+    position: relative;
+}
+.lable{
+    position: absolute;
+    top:544px;
+    left: 27px;
+    color: #505050;
+    width:66px;
+    height:32px;
+    font-size: 20px;
+
+}
+
+.emailid{
+    position: absolute;
+    top:600px;
+    left:26.75px;
+    width: 58px;
+    height: 21px;
+    color: #483699;
+
+}
+
+.password{
+    position: absolute;
+    top:670px;
+    left:26.75px;
+    width: 71px;
+    height: 21px;
+    color: #483699;
+    
+}
+
+.forgotpassword{
+    position: absolute;
+    top:735px;
+    left:27.25px;
+    width: 96px;
+    height: 16px;
+    color: #483699;
+    font-size: 12px;
+
+}
+.login{
+    position: absolute;
+    top: 780px;
+    left:45px;
+    background-color: #684EDC;
+    color:#FFFFFF;
+    border: none;
+    border-radius: 18px;
+    width: 323px;
+    height: 38px;
+}
+.signuptext{
+    position: absolute;
+    top: 835px;
+    left:123px;
+    color: #684EDC;
+    width: 170px;
+    height: 16px;
+    font-size: 12px;
+}
+
+emailinput {
+    background: none;
+    border: none;
+    border-bottom: 0.5px solid #483699;
+    position: absolute;
+    top: 630px;
+    left: 26.75px;
+    outline: none;
+    opacity: 50%;
+  }
+
+  passwordinput {
+    background: none;
+    border: none;
+    border-bottom: 0.5px solid #483699;
+    position: absolute;
+    top: 700px;
+    left: 26.75px;
+    outline: none;
+    opacity: 50%;
+  }

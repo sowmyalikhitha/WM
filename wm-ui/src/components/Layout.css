@@ -20,13 +20,16 @@
 
 .images{
     position: relative;
+    z-index: 1;
+    top:-25px;
+    
 }
 
 .hline{
     width:223px;
     height: 43.12px;
     position: absolute;
-    top: 175.72px;
+    top: 156.75px;
     left: 103.35px;
 }
 
@@ -34,13 +37,13 @@
     position: absolute;
     width: 429px;
     height: 325px;
-    top: 190px;
+    top: 175px;
     left: 25px;
 }  
 
 .bank{
     position:absolute;
-    top: 214px;
+    top: 213px;
     left: 16px;
     width:97px;
     height: 97px;
@@ -50,7 +53,7 @@
     position: absolute;
     width: 92px;
     height: 92px;
-    top: 182px;
+    top: 181px;
     left: 320px;
 }
 
@@ -58,15 +61,15 @@
     position: absolute;
     width: 66px;
     height: 82px;
-    top: 441px;
+    top: 440px;
     left: 82px;
 }
 
 .vline{
     position: absolute;
-    width: 21.9px;
-    height: 46.02px;
-    top: 423.98px;
+    width: 31.9px;
+    height: 67.02px;
+    top: 389.98px;
     left: 151.39px;
 }
 
@@ -74,7 +77,7 @@
     position: absolute;
     width: 456px;
     height: 520px;
-    top: 130px;
+    top: 118px;
     left: 42px;
 }
 
@@ -84,7 +87,7 @@
 
 
 
-.login{
+.loginbutton{
     position: absolute;
     top: 668px;
     left:43px;
@@ -97,7 +100,7 @@
 
 }
 
-.signup{
+.signupbutton{
     position: absolute;
     top:735px;
     left: 46px;

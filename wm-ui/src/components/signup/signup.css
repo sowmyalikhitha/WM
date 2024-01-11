@@ -1,0 +1,169 @@
+.signupheading{
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 19px 19px 0px 0px;
+    width: 412px;
+    height: 400px;
+    top: 502px;  
+}
+
+.signuplable{
+    position: absolute;
+    top:119px;
+    left:16px;
+    width:245px;
+    height:52px;
+    
+    
+}
+.welcome{
+    color: #505050;
+    font-size: 24px;
+
+}
+
+.lets{
+    color: #483699;
+    font-size:14px;
+    margin: 0;
+    
+}
+
+.namelable{
+    position: absolute;
+    color:#483699;
+    top: 220px;
+    left:16px;
+    width: 134px;
+    height: 21px;
+    font-size: 16px;
+}
+
+.nameinput{
+    background: none;
+    border: none;
+    border-bottom: 0.5px solid #666666;
+    position: absolute;
+    top: 260px;
+    left: 16px;
+    outline: none;
+    opacity: 50%;
+}
+
+.getstarted{
+    position: absolute;
+    top:310px;
+    left:257px;
+    width: 139px;
+    height: 38px;
+    background-color:#B0B0B0;
+    color:#FFFFFF;
+    border: none;
+    border-radius: 18px;
+}
+
+.stepper-wrapper {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 37px;
+    padding-left: 12px;
+    width: 382px;
+    height: 52px;
+  }
+
+  .stepper-item {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    
+    @media (max-width: 768px) {
+        font-size: 12px;
+      }
+  }
+  .stepper-item::before {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #C4C3C8;
+    width:175px;
+    top: 26px;
+    left: -50%;
+    z-index: 2;
+  }
+
+  .stepper-item::after {
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid #684EDC;
+    width: 175%;
+    top: 30px;
+    left: 50%;
+    z-index: 2;
+  }
+
+  .stepper-item .step-counter {
+    position: relative;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: #684EDC5C;
+  }
+  .stepper-item.active {
+    font-weight: bold;
+  }
+
+  .progress {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding-top: 37px;
+    left :12px;
+    width: 382px;
+    height: 52px;
+  }
+  
+  .progress-step {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EBEBEB;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+  }
+
+  .progress-line {
+    flex: 1;
+    height: 2px;
+    background-color: #ccc;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .progress-step.active {
+    color: #3366ff; /* Color for active step text */
+    font-weight: bold;
+  }
+  
+  .step-lable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .path{
+    width:223px;
+    height: 43.12px;
+    position: absolute;
+    top: 156.75px;
+    left: 103.35px;
+}
+  

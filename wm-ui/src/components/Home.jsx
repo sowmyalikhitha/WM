@@ -6,8 +6,8 @@ function Home() {
         <>
         <Layout/>
         <div className='buttons'>
-           <button className='login' type="button">Log In</button>
-           <button className='signup' type="button">Sign Up</button> 
+           <button className='loginbutton' type="button">Log In</button>
+           <button className='signupbutton' type="button">Sign Up</button> 
         </div>
         </>
     );
