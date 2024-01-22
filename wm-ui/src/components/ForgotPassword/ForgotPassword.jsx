@@ -7,7 +7,7 @@ function ForgotPassword() {
         <Layout/>
         <div className='fpheading'>
             <b className='fplable'>Forgot password</b>
-            <input type='email' className='emailinput'></input>
+            <input type='email' className='loginpageemailinput'></input>
             <text className='emailid'>Email ID</text>
             <button className='login' type="button">Send Verification code</button>
             <text className='logintext'>Back to login</text>

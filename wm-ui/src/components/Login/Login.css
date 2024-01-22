@@ -19,6 +19,7 @@
     width: 58px;
     height: 21px;
     color: #483699;
+    font-size: 16px;
 
 }
 
@@ -29,6 +30,7 @@
     width: 71px;
     height: 21px;
     color: #483699;
+    font-size: 16px;
     
 }
 
@@ -63,21 +65,22 @@
     font-size: 12px;
 }
 
-emailinput {
+.loginpageemailinput {
     background: none;
     border: none;
-    border-bottom: 0.5px solid #483699;
+    border-bottom: 1px solid #666666;
     position: absolute;
     top: 630px;
     left: 26.75px;
     outline: none;
     opacity: 50%;
   }
+  
 
-  passwordinput {
+.loginpagepasswordinput {
     background: none;
     border: none;
-    border-bottom: 0.5px solid #483699;
+    border-bottom: 1px solid#666666;
     position: absolute;
     top: 700px;
     left: 26.75px;

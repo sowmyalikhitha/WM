@@ -7,6 +7,7 @@ import Code from './components/ForgotPassword/Code';
 import NewPassword from './components/ForgotPassword/NewPassword';
 import UserName from './components/signup/UserName';
 import UserDetails from './components/signup/UserDetails';
+import FinalSteps from './components/signup/FinalSteps';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/newPassword" element={<NewPassword />}/>
         <Route path="/signup1" element={<UserName />}/>
         <Route path="/signup2" element={<UserDetails />}/>
+        <Route path="/signup3" element={<FinalSteps />}/>
       </Routes>
       </BrowserRouter>
           
