@@ -8,7 +8,7 @@ function Onboard2() {
         <>
         <Onboard2Bg />
         <div className="onboard2_details">
-        <MultiStepProgressBar />
+        <div><MultiStepProgressBar/></div>
         <form className="onboard2_formelements">
             <label>Email ID</label><br></br>
             <input type="text" name="name"></input><br></br>

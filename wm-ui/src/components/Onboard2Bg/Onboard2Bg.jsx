@@ -18,8 +18,8 @@ function Onboard2Bg() {
         <p className="Onboard2bg_text2">Enter the below details to ease your <br></br> onboarding experience.</p>
         <img className="germ_img" src={germ} alt="germ"></img>
         <img className="man_img" src={man} alt="man"></img>
-        <img className="tick_img" src={tick} alt="man"></img>
-        <img className="toggle_img" src={toggle} alt="man"></img>
+        <img className="tick_img" src={tick} alt="tick"></img>
+        <img className="toggle_img" src={toggle} alt="toggle"></img>
             </div>
             </>
     );

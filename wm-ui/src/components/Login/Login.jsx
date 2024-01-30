@@ -1,8 +1,15 @@
 import React from 'react';
 import './Login.css';
 import Background from '../Background/Background';
+import { useNavigate } from 'react-router-dom';
 
 function Login() {
+    const navigate = useNavigate();
+
+    function handleHomepageLoginButtonClick(){
+        navigate('/Homepage');
+    }
+
     return (
         <>
         <Background />
@@ -16,8 +23,8 @@ function Login() {
             </form>
             <a className="forgotpassword_link" href="/">Forgot password?</a>
             <div>
-                <button className="login_button">Login</button><br></br>
-                <a className="signup_link" href="/">Don't have an account? Sign-up</a>
+                <button className="login_button" onClick={handleHomepageLoginButtonClick}>Login</button><br></br>
+                <a className="signup_link" href="/signup">Don't have an account? Sign-up</a>
             </div>
         </div>
         </>
