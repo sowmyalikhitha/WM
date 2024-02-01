@@ -1,0 +1,43 @@
+.Onboard3_bg{
+    position: relative;
+    overflow: hidden;
+}
+
+.arc2_img{
+    position: relative;
+    width: 400.85px;
+    height: 280px;
+    top: -25px;
+    right: 18px;
+}
+
+.person2_img {
+    position: relative;
+    width: 186px;
+    height: 186px;
+    bottom: 246px;
+}
+
+.line3_img{
+    position: relative;
+    width: 214px;
+    height: 42px;
+    left: 100px;
+    top: 17px;
+}
+
+.moneybank_img{
+    position: relative;
+    width: 97px;
+    height: 97px;
+    bottom: 285px;
+    left: 28px;
+}
+
+.hand_img{
+    position: relative;
+    width: 100px;
+    height: 50px;
+    bottom: 452px;
+    left: 33px;
+}

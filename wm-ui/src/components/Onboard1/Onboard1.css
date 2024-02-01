@@ -56,3 +56,15 @@
 .GetStarted_button.colorchange{
     background-color: #684EDC;
 }
+
+.onboard1_details .RSPBprogressBar{
+    margin: 20px auto;
+}
+
+.onboard1_details div .RSPBstep:nth-child(2){
+    padding-left: 248px;
+}
+
+.onboard1_details .RSPBprogressBar .RSPBprogression {
+    background: #664DE5;
+}

@@ -2,10 +2,14 @@
     position: absolute;
     background-color: white;
     width: 412px;
-    height: 607px;
+    height: 620px;
     border-radius: 19px 19px 0 0;
     top: 272px;
     z-index: 1;
+}
+
+.onboard2_formelements{
+    margin-top: 100px;
 }
 
 .onboard2_formelements label{
@@ -32,5 +36,22 @@
     height: 38px;
     color: #ffffff;
     margin-left: 257px;
-    margin-top: 30px;
+    margin-top: 240px;
 }
+
+.onboard2_details .RSPBprogressBar{
+    top: 50px;
+    left: 35px;
+}
+
+.Submit_button.colorchange{
+    background-color: #684EDC;
+}
+
+.onboard2_details .RSPBprogressBar .RSPBstep:nth-child(1) .indexedStep.accomplished {
+    width: 37px;
+    height: 37px;   
+    box-shadow: none; 
+}
+
+

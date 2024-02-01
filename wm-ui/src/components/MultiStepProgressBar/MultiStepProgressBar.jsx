@@ -15,7 +15,7 @@ const MultiStepProgressBar = ({ stepPercentage }) => {
           </div>
         )}
       </Step>
-      <Step className="step2">
+      <Step>
         {({ accomplished, index }) => (
           <div
             className={`indexedStep ${accomplished ? "accomplished" : null}`}
